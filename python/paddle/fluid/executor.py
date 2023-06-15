@@ -1545,7 +1545,6 @@ class Executor:
             return True
 
         if _can_use_interpreter_core(program, self.place):
-
             if feed is None:
                 feed = {}
             elif isinstance(feed, (list, tuple)):
